@@ -647,3 +647,79 @@ ESTADÍSTICAS
     color:#d2d2d2;
 
 }
+
+/*==================================================
+  EFECTOS GENERALES DE LAS TARJETAS
+==================================================*/
+
+.about-card,
+.stat-card,
+.convoy-card,
+.feature-card,
+.fleet-card,
+.contact-card{
+
+    transition:all .35s ease;
+
+}
+
+.about-card:hover,
+.stat-card:hover,
+.convoy-card:hover,
+.feature-card:hover,
+.fleet-card:hover,
+.contact-card:hover{
+
+    box-shadow:0 20px 50px rgba(242,140,40,.15);
+
+}
+
+/*==================================================
+  IMÁGENES
+==================================================*/
+
+img{
+
+    user-select:none;
+
+    -webkit-user-drag:none;
+
+}
+
+/*==================================================
+  SEPARACIÓN
+==================================================*/
+
+.about-grid,
+.stats-grid,
+.convoy-grid,
+.gallery-grid,
+.features-grid,
+.fleet-grid,
+.contact-grid{
+
+    margin-top:60px;
+
+}
+
+/*==================================================
+  SCROLL SUAVE
+==================================================*/
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+/*==================================================
+  SELECCIÓN DE TEXTO
+==================================================*/
+
+::selection{
+
+    background:var(--primary);
+
+    color:white;
+
+}
