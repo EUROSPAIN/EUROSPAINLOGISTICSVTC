@@ -1,0 +1,205 @@
+/*==================================================
+  SECCIONES
+==================================================*/
+
+section{
+
+    position:relative;
+
+}
+
+.section{
+
+    padding:120px 0;
+
+}
+
+.section:nth-child(even){
+
+    background:#111111;
+
+}
+
+/*==========================
+TÍTULOS
+==========================*/
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-title span{
+
+    color:var(--primary);
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    font-size:.9rem;
+
+}
+
+.section-title h2{
+
+    margin:18px 0;
+
+    font-size:3rem;
+
+    font-weight:800;
+
+}
+
+.section-title p{
+
+    max-width:750px;
+
+    margin:auto;
+
+    line-height:1.9;
+
+    color:#cfcfcf;
+
+}
+
+/*==========================
+ABOUT
+==========================*/
+
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.about-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:22px;
+
+    padding:45px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.4);
+
+}
+
+.about-card i{
+
+    font-size:3rem;
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.about-card h3{
+
+    margin-bottom:18px;
+
+    font-size:1.4rem;
+
+}
+
+.about-card p{
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+/*==========================
+ESTADÍSTICAS
+==========================*/
+
+.stats{
+
+    background:linear-gradient(180deg,#111,#0b0b0b);
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.stat-card{
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:20px;
+
+    padding:45px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+    background:rgba(242,140,40,.12);
+
+}
+
+.stat-card i{
+
+    font-size:2.7rem;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.stat-card h3{
+
+    font-size:3rem;
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+    color:#d2d2d2;
+
+}
