@@ -1,1 +1,186 @@
+/* =======================================
+   EUROSPAIN LOGISTICS VTC
+   Developed by ChatGPT
+======================================= */
 
+@import url('header.css');
+@import url('hero.css');
+@import url('sections.css');
+@import url('footer.css');
+@import url('animations.css');
+@import url('responsive.css');
+
+:root{
+
+    --primary:#f28c28;
+    --primary-dark:#d87410;
+
+    --black:#0b0b0b;
+    --black-2:#151515;
+    --black-3:#1d1d1d;
+
+    --white:#ffffff;
+
+    --gray:#bdbdbd;
+
+    --glass:rgba(255,255,255,.08);
+
+    --shadow:0 20px 45px rgba(0,0,0,.35);
+
+    --transition:.35s ease;
+
+    --radius:18px;
+
+    --max-width:1300px;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--black);
+
+    color:white;
+
+    font-family:'Poppins',sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    display:block;
+
+    width:100%;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+.container{
+
+    width:min(92%,1300px);
+
+    margin:auto;
+
+}
+
+.section{
+
+    padding:120px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-title span{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+    font-size:.9rem;
+
+}
+
+.section-title h2{
+
+    font-size:3rem;
+
+    margin:15px 0;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#cfcfcf;
+
+    line-height:1.8;
+
+}
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 42px;
+
+    background:var(--primary);
+
+    color:white;
+
+    border-radius:50px;
+
+    transition:var(--transition);
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-4px);
+
+}
+
+.btn-outline{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:18px 42px;
+
+    border:2px solid var(--primary);
+
+    border-radius:50px;
+
+    transition:var(--transition);
+
+}
+
+.btn-outline:hover{
+
+    background:var(--primary);
+
+}
